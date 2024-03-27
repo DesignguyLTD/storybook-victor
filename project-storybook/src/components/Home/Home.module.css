@@ -1,0 +1,10 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    flex-shrink: 1;
+    padding: 3rem 0;
+
+}
