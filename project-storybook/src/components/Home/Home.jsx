@@ -1,6 +1,8 @@
 import MainText from "./MainText";
 import Navbar from "../Navbar/Navbar";
 import { Primary } from "../Features/Card.stories";
+import Productive from "../Productive/Productive";
+import arrow from "../asset/arrow-right-long 5.svg";
 import icon1 from "../asset/Group 364.svg";
 import icon2 from "../asset/Group 366.svg";
 import icon3 from "../asset/Group 365.svg";
@@ -20,6 +22,15 @@ export default function Home() {
           headSize="28px"
           descSize="16px"
           descWidth="264px"
+          arrow={arrow}
+          backgroundColor="#651FFF"
+          width="359px"
+          height="395px"
+          padding="30px 30px"
+          color="white"
+          headPad="1.5rem 0"
+          otherFont="16px"
+          otherMargin="2rem 0rem  0 0"
         />
         <Primary
           imageIcon={icon2}
@@ -29,6 +40,15 @@ export default function Home() {
           headSize="28px"
           descSize="16px"
           descWidth="278px"
+          arrow={arrow}
+          backgroundColor="#651FFF"
+          width="359px"
+          height="395px"
+          padding="30px 30px"
+          color="white"
+          headPad="1.5rem 0"
+          otherFont="16px"
+          otherMargin="2rem 0  0 0"
         />
         <Primary
           imageIcon={icon3}
@@ -37,9 +57,19 @@ export default function Home() {
           otherText="Metered billing"
           headSize="28px"
           descSize="16px"
-          descWidth="268px"
+          descWidth="278px"
+          arrow={arrow}
+          backgroundColor="#651FFF"
+          width="359px"
+          height="395px"
+          padding="30px 30px"
+          color="white"
+          headPad="1.5rem 0"
+          otherFont="16px"
+          otherMargin="2rem 0  0 0"
         />
       </div>
+      <Productive />
     </>
   );
 }

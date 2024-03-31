@@ -12,6 +12,8 @@ export default function Navbar() {
             <img src={logo} alt="" />
           </div>
 
+          {/* <Links links="Features" /> */}
+
           <ul className={style.navlinks}>
             <li>Features</li>
             <li>Solutions</li>
