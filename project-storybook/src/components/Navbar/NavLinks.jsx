@@ -9,8 +9,20 @@ export default function NavLinks({
   listPadding,
   textDecoration,
   color,
+  gap,
   fontSize,
-  links,
+  link1,
+  link2,
+  link3,
+  link4,
+  link5,
+  link6,
+  location1,
+  location2,
+  location3,
+  location4,
+  location5,
+  location6,
 }) {
   return (
     <>
@@ -20,6 +32,8 @@ export default function NavLinks({
           alignItems: alignItems,
           listStyleType: listStyleType,
           justifyContent: justifyContent,
+          textAlign: "center",
+          gap: gap,
         }}>
         <li
           className={style.navlinks}
@@ -32,10 +46,95 @@ export default function NavLinks({
               color: color,
               fontSize: fontSize,
             }}
-            href={location}
+            href={location1}
             target="_blank"
             rel="noopener noreferrer">
-            {links}
+            {link1}
+          </a>
+        </li>
+        <li
+          className={style.navlinks}
+          style={{
+            padding: listPadding,
+          }}>
+          <a
+            style={{
+              textDecoration: textDecoration,
+              color: color,
+              fontSize: fontSize,
+            }}
+            href={location2}
+            target="_blank"
+            rel="noopener noreferrer">
+            {link2}
+          </a>
+        </li>
+        <li
+          className={style.navlinks}
+          style={{
+            padding: listPadding,
+          }}>
+          <a
+            style={{
+              textDecoration: textDecoration,
+              color: color,
+              fontSize: fontSize,
+            }}
+            href={location3}
+            target="_blank"
+            rel="noopener noreferrer">
+            {link3}
+          </a>
+        </li>
+        <li
+          className={style.navlinks}
+          style={{
+            padding: listPadding,
+          }}>
+          <a
+            style={{
+              textDecoration: textDecoration,
+              color: color,
+              fontSize: fontSize,
+            }}
+            href={location4}
+            target="_blank"
+            rel="noopener noreferrer">
+            {link4}
+          </a>
+        </li>
+        <li
+          className={style.navlinks}
+          style={{
+            padding: listPadding,
+          }}>
+          <a
+            style={{
+              textDecoration: textDecoration,
+              color: color,
+              fontSize: fontSize,
+            }}
+            href={location5}
+            target="_blank"
+            rel="noopener noreferrer">
+            {link5}
+          </a>
+        </li>
+        <li
+          className={style.navlinks}
+          style={{
+            padding: listPadding,
+          }}>
+          <a
+            style={{
+              textDecoration: textDecoration,
+              color: color,
+              fontSize: fontSize,
+            }}
+            href={location6}
+            target="_blank"
+            rel="noopener noreferrer">
+            {link6}
           </a>
         </li>
       </ul>

@@ -2,6 +2,7 @@ import MainText from "./MainText";
 import Navbar from "../Navbar/Navbar";
 import { Primary } from "../Features/Card.stories";
 import Productive from "../Productive/Productive";
+import Storage from "../Features/Storage";
 import arrow from "../asset/arrow-right-long 5.svg";
 import icon1 from "../asset/Group 364.svg";
 import icon2 from "../asset/Group 366.svg";
@@ -70,6 +71,7 @@ export default function Home() {
         />
       </div>
       <Productive />
+      <Storage />
     </>
   );
 }

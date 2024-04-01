@@ -23,6 +23,7 @@ export default function CardsTwo({
   wordDisplay,
   width,
   height,
+  textPad,
 }) {
   return (
     <>
@@ -49,13 +50,14 @@ export default function CardsTwo({
             alignItems: wordItems,
             justifyContent: wordContent,
             flexDirection: wordDirection,
-            margin: "-1rem 1.5rem",
+            margin: "0rem 1.5rem",
             height: "100%",
           }}>
           <h1
             style={{
               fontSize: textSize,
               color: textColor,
+              padding: textPad,
             }}>
             {text}
           </h1>

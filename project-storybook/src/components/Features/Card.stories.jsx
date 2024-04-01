@@ -33,6 +33,7 @@ export default {
     boxBorder: { control: "text" },
     otherMargin: { control: "text" },
     otherColor: { control: "color" },
+    textPad: { control: "number" },
   },
 };
 

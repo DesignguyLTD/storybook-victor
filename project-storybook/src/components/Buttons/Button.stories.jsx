@@ -32,4 +32,5 @@ Create.args = {
   label: " Create an account",
   backgroundColor: "#651FFF",
   color: "white",
+  onclick: action("Sign In"),
 };

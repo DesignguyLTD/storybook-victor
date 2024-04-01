@@ -1,5 +1,6 @@
 import { Create, SignIn } from "../Buttons/Button.stories";
 
+import { Links } from "./NavLinks.stories";
 import logo from "../asset/logo-color 1.svg";
 import style from "./Navbar.module.css";
 
@@ -11,22 +12,34 @@ export default function Navbar() {
           <div className={style.logo}>
             <img src={logo} alt="" />
           </div>
-
-          {/* <Links links="Features" /> */}
-
-          <ul className={style.navlinks}>
-            <li>Features</li>
-            <li>Solutions</li>
-            <li>NFT Storage</li>
-            <li>Pricing</li>
-            <li>Developers</li>
-            <li>Resources</li>
-          </ul>
+          <Links
+            display="flex"
+            alignItems="center"
+            listStyleType="none"
+            link1="Features"
+            link2="Solutions"
+            link3="NFT Storage"
+            link4="Pricing"
+            link5="Developers"
+            link6="Resource"
+            listPadding="0px 24px 0px 0px "
+            fontSize="16px"
+            color="rgb(92, 95,110)"
+          />
         </div>
         <div className={style.others}>
           <ul className={style.english}>
-            <li>App</li>
-            <li>English</li>
+            <Links
+              display="flex"
+              alignItems="center"
+              listStyleType="none"
+              link1="App"
+              link2="English"
+              listPadding="0 0 0 0"
+              gap="10px "
+              fontSize="16px"
+              color="rgb(92, 95,110)"
+            />
           </ul>
           <SignIn
             label="Sign In"

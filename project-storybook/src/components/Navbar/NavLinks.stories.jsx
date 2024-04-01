@@ -12,8 +12,35 @@ export default {
     textDecoration: { control: "text" },
     color: { control: "color" },
     fontSize: { control: "number" },
-    links: { control: "text" },
+    gap: { control: "number" },
+    link1: { control: "text" },
+    link2: { control: "text" },
+    link3: { control: "text" },
+    link4: { control: "text" },
+    link5: { control: "text" },
+    link6: { control: "text" },
+    location1: { control: "text" },
+    location2: { control: "text" },
+    location3: { control: "text" },
+    location4: { control: "text" },
+    location5: { control: "text" },
+    location6: { control: "text" },
   },
 };
 
-export const Links = (args) => <Links {...args} />;
+export const Links = (args) => <NavLinks {...args} />;
+Links.args = {
+  display: "flex",
+  alignItems: "center",
+  listStyleType: "none",
+  link1: "Features",
+  link2: "Solutions",
+  link3: "NFT Storage",
+  link4: "Pricing",
+  link5: "Developers",
+  link6: "Resource",
+  listPadding: "0px 0px 0px 0px ",
+  fontSize: "16px",
+  color: "rgb(92, 95,110)",
+  gap: "2rem",
+};
