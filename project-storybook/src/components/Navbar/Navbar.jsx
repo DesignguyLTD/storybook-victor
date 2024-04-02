@@ -52,6 +52,8 @@ export default function Navbar() {
             margin="0px 10px 0px 10px "
             height="42px"
             width="112px"
+            padding="9px 17px"
+            borderRadius="12px"
           />
           <Create
             label="Create an account"
@@ -61,6 +63,8 @@ export default function Navbar() {
             backgroundColor="#651FFF"
             color="white"
             borderWidth="0"
+            padding="9px 17px"
+            borderRadius="12px"
           />
         </div>
       </nav>

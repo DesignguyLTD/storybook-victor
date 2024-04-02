@@ -1,0 +1,23 @@
+.cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.started {
+    display: flex;
+    justify-content: space-between;
+    width: 1127px;
+    margin: 0 auto 60px;
+}
+
+.started h2 {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.started p {
+    color: rgb(131, 134, 150);
+    font-size: 16px;
+    padding: 10px 0px;
+}

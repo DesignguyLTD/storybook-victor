@@ -8,6 +8,8 @@ export default function NavLinks({
   justifyContent,
   listPadding,
   textDecoration,
+  padding,
+  flexDirection,
   color,
   gap,
   fontSize,
@@ -32,8 +34,9 @@ export default function NavLinks({
           alignItems: alignItems,
           listStyleType: listStyleType,
           justifyContent: justifyContent,
-          textAlign: "center",
           gap: gap,
+          flexDirection: flexDirection,
+          padding: padding,
         }}>
         <li
           className={style.navlinks}

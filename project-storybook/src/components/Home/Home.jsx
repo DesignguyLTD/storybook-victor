@@ -1,7 +1,12 @@
+import HowTo from "../HowTo/HowTo";
+// import Footer from "../Footer/Footer";
 import MainText from "./MainText";
 import Navbar from "../Navbar/Navbar";
 import { Primary } from "../Features/Card.stories";
 import Productive from "../Productive/Productive";
+import ShowFooter from "../Footer/ShowFooter";
+import ShowPrice from "../Pricing/ShowPrice";
+import Started from "../Started/Started";
 import Storage from "../Features/Storage";
 import arrow from "../asset/arrow-right-long 5.svg";
 import icon1 from "../asset/Group 364.svg";
@@ -72,6 +77,10 @@ export default function Home() {
       </div>
       <Productive />
       <Storage />
+      <ShowPrice />
+      <HowTo />
+      <Started />
+      <ShowFooter />
     </>
   );
 }

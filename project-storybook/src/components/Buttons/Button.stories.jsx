@@ -16,6 +16,8 @@ export default {
     height: { control: "number" },
     margin: { control: "text" },
     onclick: { action: "clicked" },
+    padding: { action: "text" },
+    borderRadius: { action: "text" },
   },
 };
 
@@ -25,6 +27,8 @@ SignIn.args = {
   backgroundColor: "white",
   color: "black",
   onclick: action("Sign In"),
+  padding: "9px 17px",
+  borderRadius: "12px",
 };
 
 export const Create = (args) => <Button {...args} />;
@@ -33,4 +37,6 @@ Create.args = {
   backgroundColor: "#651FFF",
   color: "white",
   onclick: action("Sign In"),
+  padding: "9px 17px",
+  borderRadius: "12px",
 };

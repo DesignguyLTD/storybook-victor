@@ -25,6 +25,8 @@ export default {
     location4: { control: "text" },
     location5: { control: "text" },
     location6: { control: "text" },
+    flexDirection: { control: "text" },
+    padding: { control: "text" },
   },
 };
 
@@ -39,7 +41,6 @@ Links.args = {
   link4: "Pricing",
   link5: "Developers",
   link6: "Resource",
-  listPadding: "0px 0px 0px 0px ",
   fontSize: "16px",
   color: "rgb(92, 95,110)",
   gap: "2rem",

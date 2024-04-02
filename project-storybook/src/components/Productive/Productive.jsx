@@ -73,6 +73,7 @@ export default function Productive() {
                 margin="0px 10px 0px 10px "
                 height="48px"
                 width="169px"
+                borderRadius="12px"
               />
             }
             extra={
@@ -84,6 +85,7 @@ export default function Productive() {
                 backgroundColor="#651FFF"
                 color="white"
                 borderWidth="0"
+                borderRadius="12px"
               />
             }
           />

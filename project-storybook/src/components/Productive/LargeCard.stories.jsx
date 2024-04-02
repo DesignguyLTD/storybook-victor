@@ -66,6 +66,8 @@ Large.args = {
       margin="0px 10px 0px 10px "
       height="48px"
       width="169px"
+      padding="9px 17px"
+      borderRadius="12px"
     />
   ),
   extra: (
@@ -77,6 +79,8 @@ Large.args = {
       backgroundColor="#651FFF"
       color="white"
       borderWidth="0"
+      padding="9px 17px"
+      borderRadius="12px"
     />
   ),
 };

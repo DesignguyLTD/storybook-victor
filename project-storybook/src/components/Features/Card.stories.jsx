@@ -34,6 +34,15 @@ export default {
     otherMargin: { control: "text" },
     otherColor: { control: "color" },
     textPad: { control: "number" },
+    bigImage: { control: "text" },
+    display: { control: "text" },
+    justifyContent: { control: "text" },
+    alignContent: { control: "text" },
+    gap: { control: "text" },
+    flexDirection: { control: "text" },
+    boxDirection: { control: "text" },
+    descTextAlign: { control: "text" },
+    headTextAlign: { control: "text" },
   },
 };
 

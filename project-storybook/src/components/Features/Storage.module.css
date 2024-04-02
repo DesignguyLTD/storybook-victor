@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+
 }
 
 .covering {
@@ -10,8 +11,9 @@
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    margin: 9rem auto;
+    margin: 15rem auto 0;
     gap: 65px;
+    height: 950px;
 
 }
 

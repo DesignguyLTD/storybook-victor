@@ -16,8 +16,6 @@ export default function Logos({
         justifyContent: justifyContent,
         alignItems: alignItems,
         gap: gap,
-        backgroundColor: "green",
-        width: "fit-content",
       }}>
       <img src={image1} alt="" />
       <img src={image2} alt="" />

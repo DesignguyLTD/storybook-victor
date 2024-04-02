@@ -25,6 +25,7 @@ export default function MainText() {
             borderWidth="0"
             width="164px"
             height="48px"
+            borderRadius="12px"
           />
           <SignIn
             label="Pricing"
@@ -37,6 +38,7 @@ export default function MainText() {
             margin="0px 10px 0px 10px "
             height="48px"
             width="148px"
+            borderRadius="12px"
           />
         </div>
 

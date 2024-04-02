@@ -12,7 +12,9 @@ export default function Pricing({
   gb2,
   bigButton,
   tick,
-  specs,
+  specs1,
+  specs2,
+  specs3,
   padding,
   width,
   height,
@@ -52,6 +54,13 @@ export default function Pricing({
   amountDisplay2,
   amountJustify2,
   gap,
+  hrBorder,
+  hrPad,
+  specPad,
+  writingMargin,
+  amountGap,
+  amountGap2,
+  color,
 }) {
   return (
     <>
@@ -69,6 +78,7 @@ export default function Pricing({
           borderRadius: borderRadius,
           flexDirection: flexDirection,
           marginBottom: "15px",
+          color: color,
         }}>
         <div style={{ textAlign: textAlign }}>
           <h2
@@ -87,6 +97,8 @@ export default function Pricing({
               borderStyle: hrTextDecoration,
               borderColor: hrColor,
               borderWidth: hrBorderW,
+              border: hrBorder,
+              margin: hrPad,
             }}
           />
           <p
@@ -94,11 +106,18 @@ export default function Pricing({
               color: writingColor,
               fontSize: writingSize,
               width: writingWidth,
+              margin: writingMargin,
             }}>
             {writings}
           </p>
         </div>
-        <div>
+        <div
+          style={{
+            display: "flex",
+            gap: ".5rem",
+            flexDirection: "column",
+            margin: "0px",
+          }}>
           <>{button}</>
           <div
             style={{
@@ -106,14 +125,13 @@ export default function Pricing({
               alignItems: amountAlign,
               justifyContent: amountJustify,
               flexDirection: amountDirection,
+              gap: amountGap,
             }}>
             <p
               style={{
                 fontSize: amountSize,
                 color: amountColor,
                 fontWeight: amountWeight,
-                lineHeight: "72px",
-                margin: "0px",
               }}>
               {amount}
             </p>
@@ -126,7 +144,12 @@ export default function Pricing({
             </p>
           </div>
         </div>
-        <div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            gap: ".5rem",
+          }}>
           <>{button2}</>
           <div
             style={{
@@ -134,12 +157,15 @@ export default function Pricing({
               alignItems: amountAlign2,
               justifyContent: amountJustify2,
               flexDirection: amountDirection2,
+              gap: amountGap2,
+              // margin: "0px",
             }}>
             <p
               style={{
                 fontSize: amountSize,
                 color: amountColor,
                 fontWeight: amountWeight,
+                margin: "0px",
               }}>
               {amount2}
             </p>
@@ -160,9 +186,10 @@ export default function Pricing({
               alignItems: specItems,
               justifyContent: specContents,
               gap: specGap,
+              padding: specPad,
             }}>
             <img src={tick} alt="" />
-            <p>{specs}</p>
+            <p>{specs1}</p>
           </div>
           <div
             style={{
@@ -170,9 +197,10 @@ export default function Pricing({
               alignItems: specItems,
               justifyContent: specContents,
               gap: specGap,
+              padding: specPad,
             }}>
             <img src={tick} alt="" />
-            <p>{specs}</p>
+            <p>{specs2}</p>
           </div>
           <div
             style={{
@@ -180,9 +208,10 @@ export default function Pricing({
               alignItems: specItems,
               justifyContent: specContents,
               gap: specGap,
+              padding: specPad,
             }}>
             <img src={tick} alt="" />
-            <p>{specs}</p>
+            <p>{specs3}</p>
           </div>
         </div>
       </div>

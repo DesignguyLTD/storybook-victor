@@ -1,0 +1,33 @@
+.how {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 1126px;
+    margin: 0 auto;
+}
+
+.how hr {
+    border: 2px dashed rgb(92, 95, 110);
+
+    rotate: 180deg;
+    width: 186px;
+    margin-top: 2rem;
+}
+
+.writings {
+    text-align: center;
+    width: 755px;
+    margin: 0 auto 5rem;
+}
+
+.writings h2 {
+    font-size: 48px;
+    color: rgb(14, 15, 16);
+    padding-bottom: 1rem;
+}
+
+.writings p {
+    color: rgb(131, 134, 150);
+    font-size: 18px;
+    line-height: 32px;
+}

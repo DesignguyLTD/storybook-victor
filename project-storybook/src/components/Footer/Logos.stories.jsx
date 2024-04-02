@@ -23,6 +23,7 @@ export const Logo = (args) => <Logos {...args} />;
 Logo.args = {
   display: "flex",
   alignItems: "center",
+  gap: "2rem",
   image1: image1,
   image2: image2,
   image3: image3,

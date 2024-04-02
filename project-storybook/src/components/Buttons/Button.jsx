@@ -13,6 +13,8 @@ export default function Button({
   onclick,
   width,
   height,
+  padding,
+  borderRadius,
 }) {
   return (
     <button
@@ -29,6 +31,8 @@ export default function Button({
         margin: margin,
         width: width,
         height: height,
+        padding: padding,
+        borderRadius: borderRadius,
       }}>
       {label}
     </button>
