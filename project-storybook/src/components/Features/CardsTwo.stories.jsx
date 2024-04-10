@@ -26,6 +26,7 @@ export default {
     wordItems: { control: "text" },
     wordDirection: { control: "text" },
     wordDisplay: { control: "text" },
+    altCardTwo: { control: "text" },
   },
 };
 

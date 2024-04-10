@@ -43,6 +43,7 @@ export default {
     boxDirection: { control: "text" },
     descTextAlign: { control: "text" },
     headTextAlign: { control: "text" },
+    altCardText: { control: "text" },
   },
 };
 

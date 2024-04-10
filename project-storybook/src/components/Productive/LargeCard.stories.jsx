@@ -29,6 +29,7 @@ export default {
     borderRadius: { control: "text" },
     information: { control: "text" },
     extra2: { control: "text" },
+    altLargeText: { control: "text" },
   },
 };
 

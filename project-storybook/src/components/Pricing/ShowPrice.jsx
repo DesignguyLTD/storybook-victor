@@ -6,7 +6,7 @@ import tick from "../asset/Group 221.svg";
 
 export default function ShowPrice() {
   return (
-    <div>
+    <div className={style.container}>
       <div className={style.cyn}>
         <div>
           <h1 className={style.heading}>

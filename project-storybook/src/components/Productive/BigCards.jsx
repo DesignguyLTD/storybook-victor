@@ -13,6 +13,7 @@ export default function BigCards({
   boxWidth,
   imageWidth,
   boxHeight,
+  altBigText,
 }) {
   return (
     <>
@@ -45,7 +46,7 @@ export default function BigCards({
               maxWidth: imageWidth,
             }}
             src={images}
-            alt=""
+            alt={altBigText}
           />
         </div>
       </div>

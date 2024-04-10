@@ -38,6 +38,7 @@ export default function Card({
   flexDirection,
   descTextAlign,
   headTextAlign,
+  altCardText,
 }) {
   return (
     <>
@@ -68,7 +69,7 @@ export default function Card({
               height: boxHeight,
             }}>
             <div>
-              <img className={style.image} src={imageIcon} alt="" />
+              <img className={style.image} src={imageIcon} alt={altCardText} />
             </div>
             <div
               style={{

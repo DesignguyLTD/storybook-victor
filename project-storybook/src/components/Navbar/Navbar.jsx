@@ -12,20 +12,22 @@ export default function Navbar() {
           <div className={style.logo}>
             <img src={logo} alt="" />
           </div>
-          <Links
-            display="flex"
-            alignItems="center"
-            listStyleType="none"
-            link1="Features"
-            link2="Solutions"
-            link3="NFT Storage"
-            link4="Pricing"
-            link5="Developers"
-            link6="Resource"
-            listPadding="0px 24px 0px 0px "
-            fontSize="16px"
-            color="rgb(92, 95,110)"
-          />
+          <div data-test="link">
+            <Links
+              display="flex"
+              alignItems="center"
+              listStyleType="none"
+              link1="Features"
+              link2="Solutions"
+              link3="NFT Storage"
+              link4="Pricing"
+              link5="Developers"
+              link6="Resource"
+              listPadding="0px 24px 0px 0px "
+              fontSize="16px"
+              color="rgb(92, 95,110)"
+            />
+          </div>
         </div>
         <div className={style.others}>
           <ul className={style.english}>

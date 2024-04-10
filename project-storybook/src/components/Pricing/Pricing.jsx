@@ -61,6 +61,8 @@ export default function Pricing({
   amountGap,
   amountGap2,
   color,
+  altPricingText,
+  amountHeight,
 }) {
   return (
     <>
@@ -112,6 +114,7 @@ export default function Pricing({
           </p>
         </div>
         <div
+          className="amount_one"
           style={{
             display: "flex",
             gap: ".5rem",
@@ -126,6 +129,7 @@ export default function Pricing({
               justifyContent: amountJustify,
               flexDirection: amountDirection,
               gap: amountGap,
+              height: amountHeight,
             }}>
             <p
               style={{
@@ -145,6 +149,7 @@ export default function Pricing({
           </div>
         </div>
         <div
+          className="amount_two"
           style={{
             display: "flex",
             flexDirection: "column",
@@ -188,7 +193,7 @@ export default function Pricing({
               gap: specGap,
               padding: specPad,
             }}>
-            <img src={tick} alt="" />
+            <img src={tick} alt={altPricingText} />
             <p>{specs1}</p>
           </div>
           <div
@@ -199,7 +204,7 @@ export default function Pricing({
               gap: specGap,
               padding: specPad,
             }}>
-            <img src={tick} alt="" />
+            <img src={tick} alt={altPricingText} />
             <p>{specs2}</p>
           </div>
           <div
@@ -210,7 +215,7 @@ export default function Pricing({
               gap: specGap,
               padding: specPad,
             }}>
-            <img src={tick} alt="" />
+            <img src={tick} alt={altPricingText} />
             <p>{specs3}</p>
           </div>
         </div>

@@ -16,6 +16,9 @@ export default {
     image3: { control: "text" },
     image4: { control: "text" },
     gap: { control: "number" },
+    altLogoText: { control: "text" },
+    backgroundColor: { control: "color" },
+    width: { control: "number" },
   },
 };
 

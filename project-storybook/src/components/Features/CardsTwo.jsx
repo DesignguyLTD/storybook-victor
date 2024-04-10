@@ -24,6 +24,7 @@ export default function CardsTwo({
   width,
   height,
   textPad,
+  altCardTwo,
 }) {
   return (
     <>
@@ -41,7 +42,7 @@ export default function CardsTwo({
           boxShadow: boxShadow,
         }}>
         <div>
-          <img src={icons} alt="" />
+          <img src={icons} alt={altCardTwo} />
         </div>
         <div
           style={{

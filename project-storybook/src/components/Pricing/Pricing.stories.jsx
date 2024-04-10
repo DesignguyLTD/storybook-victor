@@ -64,6 +64,8 @@ export default {
     amountGap: { control: "text" },
     amountGap2: { control: "text" },
     color: { control: "color" },
+    altPricingText: { control: "text" },
+    amountHeight: { control: "number" },
   },
 };
 
@@ -173,7 +175,7 @@ PriceTwoCards.args = {
   textAlign: "left",
   amountDisplay: "flex",
   amountDisplay2: "flex",
-  amountAlign: "end",
+  amountAlign: "center",
   amountAlign2: "end",
   hrPad: "0 0rem",
   amountSize: "48px",
@@ -192,4 +194,5 @@ PriceTwoCards.args = {
   specPad: "0 0 5px",
   color: "white",
   padding: "30px 80px",
+  amountHeight: "4.5rem",
 };

@@ -16,6 +16,7 @@ export default {
     boxWidth: { control: "number" },
     imageWidth: { control: "number" },
     boxHeight: { control: "number" },
+    altBigText: { control: "text" },
   },
 };
 

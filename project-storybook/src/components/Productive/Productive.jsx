@@ -12,8 +12,8 @@ export default function Productive() {
     <>
       <div className={style.proBody}>
         <p className={style.text}>
-          Lightweight design, ready to use for{" "}
-          <span className={style.span}>team productivity.</span>
+          Lightweight design, ready to use for
+          <span className={style.span}> team productivity.</span>
         </p>
 
         <div className={style.theBigCards}>

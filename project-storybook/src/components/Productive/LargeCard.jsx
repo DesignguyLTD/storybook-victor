@@ -24,6 +24,7 @@ export default function LargeCard({
   backgroundColor,
   information,
   extra2,
+  altLargeText,
 }) {
   return (
     <div
@@ -66,7 +67,7 @@ export default function LargeCard({
         </div>
       </div>
       <div className={style.image}>
-        <img src={illustrations} alt="" />
+        <img src={illustrations} alt={altLargeText} />
       </div>
     </div>
   );

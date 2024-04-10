@@ -43,7 +43,7 @@ export default function MainText() {
         </div>
 
         <div className={style.image}>
-          <img className={style.img} src={image} alt="" />
+          <img className={style.img} src={image} alt="Hero section Image" />
         </div>
 
         <div>
